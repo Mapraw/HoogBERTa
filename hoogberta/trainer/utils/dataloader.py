@@ -4,7 +4,7 @@ from fairseq.data.dictionary import Dictionary
 from fairseq.data.data_utils import collate_tokens
 
 
-from torchtext.data import BucketIterator
+from torchtext.legacy.data import BucketIterator
 from torchtext import data
 from torchtext import datasets
 
